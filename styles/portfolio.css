@@ -75,6 +75,8 @@ nav a {
     background-position: bottom;
     background-image: url('../images/developer.png');
     background-position: left;
+    background-image: url('../images/header_bg.png');
+    background-position: bottom right;
 }
 
 .banner-content {
