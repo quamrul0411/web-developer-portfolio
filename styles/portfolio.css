@@ -134,7 +134,43 @@ main {
 
 
 /* .resume section styles */
-.resume-title{
+.resume-title {
     text-align: center;
     padding: 30px;
+}
+
+.resume-container {
+    display: flex;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .footer-section */
+
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.footer-column {
+    width: 50%;
+
+}
+
+.contact input,
+textarea {
+    display: block;
+    color: #757575;
+    padding: 18px 35px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+    width: 50%;
 }
